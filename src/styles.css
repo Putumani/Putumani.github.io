@@ -1,15 +1,10 @@
-header li {
-    list-style: none;
-    display: inline-block;
-    padding: 0 20px;
-}
-
 /* Global */
 * {
-    margin: 0;
+    margin: 0 20px 0 20px;
     padding: 0;
     font-family: Arial, Helvetica;
 }
+
 
 /* Header */
 header {
@@ -28,7 +23,7 @@ header {
 header li {
     list-style: none;
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 5px;
 }
 
 header a {
@@ -40,3 +35,18 @@ header a {
 header a:hover {
     color: orange;
 }
+/* About-Me Section */
+.about-me {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50%;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+.about-me img {
+    width: 70%;
+    height: 70%;
+    border-radius: 70%;
+  }
+  
