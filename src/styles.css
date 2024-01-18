@@ -181,12 +181,6 @@ section {
     border-radius: 2rem;
 }
 
-.arrow {
-    position: absolute;
-    right: -5rem;
-    bottom: 2rem;
-}
-
 .details-container {
     padding: 1.5rem;
     flex: 1;
@@ -209,9 +203,13 @@ section {
 } 
 
 img.paint-pic {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     margin: auto 0;
+}
+
+p {
+    margin-bottom: 10px;
 }
 
 /* Experience Section */
