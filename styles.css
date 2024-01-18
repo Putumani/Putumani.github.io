@@ -62,10 +62,6 @@ section {
     min-height: fit-content;
 }
 
-.home-container {
-    display: flex;
-}
-
 /* Home Section  */
 #home {
     display: flex;
@@ -208,23 +204,23 @@ img.paint-pic {
     margin: auto 0;
 }
 
-p {
-    margin-bottom: 10px;
+#about .text-section p {
+    margin-bottom: 15px;
 }
 
-/* Experience Section */
-#experience {
+/* Skills Section */
+#skills {
     position: relative;
 }
 
-.experience-sub-title {
+.skills-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.skills-details-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
