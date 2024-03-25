@@ -21,15 +21,18 @@
 		</nav>
 		<nav id="hamburger-nav">
 			<div class="hamburger-menu">
-				<div class="hamburger-icon" >
-					<ul class="menu-links">
-						<li class="nav-item"><a href="#home">Home</a></li>
-						<li class="nav-item"><a href="#about">About</a></li>
-						<li class="nav-item"><a href="#skills">Skills</a></li>
-						<li class="nav-item"><a href="#projects">Projects</a></li>
-						<li class="nav-item"><a href="#contact">Contacts</a></li>
-					</ul>
+				<div class="hamburger-icon" onclick="toggleMenu()">
+					<span></span>
+					<span></span>
+					<span></span>
 				</div>
+				<ul class="menu-links">
+					<li><a href="#home" onclick="toggleMenu()">Home</a></li>
+					<li><a href="#about" onclick="toggleMenu()">About</a></li>
+					<li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+					<li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+					<li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+				</ul>
 			</div>
 		</nav>
 	</header>
