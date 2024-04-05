@@ -69,13 +69,15 @@
             "text";
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
+        width: 100%;
     }
 
     .home-container {
         grid-area: image;
         align-self: center;
         justify-self: center;
-        width: 45%;
+        width: 40%;
+        height: 200px;
         margin: 0 auto;
     }
 
@@ -84,7 +86,6 @@
         height: auto;
         display: block;
         margin: 0 auto;
-        padding-top: 17vh;
     }
 
     .text-section {
