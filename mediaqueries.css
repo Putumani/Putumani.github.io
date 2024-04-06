@@ -186,19 +186,27 @@
         border-radius: 2rem;
         border: rgb(53, 53, 53) 0.1rem solid;
         border-color: rgb(163, 163, 163);
-        background: (250, 250, 250);
         margin: 2rem auto;
         padding: 0.5rem;
         margin-top: 2rem;
+        justify-content: center;
+        text-align: center;
     }
 
     .contact-info-container {
         display: grid;
         grid-template-columns: auto max-content;
         align-items: center;
-        justify-content: center;
         gap: 0.5rem;
-        margin: 1rem;
+    }
+
+    .contact-info-container img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .contact-info-container p {
+        font-size: 0.9rem;
     }
         
     .experience-sub-title {
@@ -235,19 +243,5 @@
 
     .paint-pic {
         display: none;
-    }
-
-    .contact-info-container {
-        width: 100%;
-        margin-bottom: 1rem;
-    }
-
-    .icon .contact-icon {
-        width: 1.5rem;
-        height: 1.5rem;
-    }
-
-    .contact-info-container p {
-        font-size: 0.9rem;
     }
 }
