@@ -64,7 +64,6 @@
         align-items: center;
         max-width: 100%;
         overflow-x: hidden;
-        right: 20%
     }
     
     header {
@@ -179,6 +178,7 @@
         margin: 2rem auto;
         padding: 0.5rem;
         margin-top: 2rem;
+        width: 100%;
     }
 
     .contact-info-container {
