@@ -153,12 +153,26 @@
     .details-container:nth-child(2) {
         margin-top: -1rem;
     }
-       
-    #contact,
-    footer {
-        height: 40vh;
+
+    .article-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
     }
 
+    article {
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    article .icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    article div {
+        font-size: 0.9rem;
+    }
 
     footer nav {
         height: fit-content;
