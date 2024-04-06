@@ -132,7 +132,22 @@
        margin-bottom: 2rem;
    }
 
+    .about-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
 
+    .details-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .details-container:nth-child(2) {
+        margin-top: -1rem;
+    }
+       
     #contact,
     footer {
         height: 40vh;
