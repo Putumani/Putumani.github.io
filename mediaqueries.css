@@ -236,4 +236,18 @@
     .paint-pic {
         display: none;
     }
+
+    .contact-info-container {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .icon .contact-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .contact-info-container p {
+        font-size: 0.9rem;
+    }
 }
