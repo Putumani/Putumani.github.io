@@ -37,10 +37,6 @@
         grid-column: auto;
     }
 
-    .arrow {
-        display: none;
-    }
-
     section,
     .section-container {
         height: fit-content;
@@ -62,6 +58,18 @@
 }
 
 @media screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    header {
+        width: 100%;
+    }
+
     #home {
         display: grid;
         grid-template-areas:
